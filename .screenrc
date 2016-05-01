@@ -1,0 +1,13 @@
+startup_message off
+defscrollback 10000
+
+#window bar always on
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%w"
+
+#getting 256 colors in vim through screen
+term screen-256color
+defbce "on" # turns deletes, end of lines, etc to true bcg color
+#attrcolor b ".I"
+#termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
